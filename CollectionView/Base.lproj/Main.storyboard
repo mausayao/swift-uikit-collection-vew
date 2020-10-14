@@ -35,16 +35,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQw-PC-fEP">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="186.5" y="11.5" width="41.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                             <constraints>
-                                                <constraint firstItem="wQw-PC-fEP" firstAttribute="leading" secondItem="fbK-98-BUi" secondAttribute="leading" constant="8" id="CzX-ke-CDm"/>
-                                                <constraint firstAttribute="trailing" secondItem="wQw-PC-fEP" secondAttribute="trailing" constant="8" id="Ng4-YU-vst"/>
-                                                <constraint firstItem="wQw-PC-fEP" firstAttribute="centerY" secondItem="fbK-98-BUi" secondAttribute="centerY" id="zr2-6c-0Xk"/>
+                                                <constraint firstItem="wQw-PC-fEP" firstAttribute="centerY" secondItem="fbK-98-BUi" secondAttribute="centerY" id="4Yq-HX-FMN"/>
+                                                <constraint firstItem="wQw-PC-fEP" firstAttribute="centerX" secondItem="fbK-98-BUi" secondAttribute="centerX" id="ubx-ex-LWd"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="44"/>
@@ -76,6 +76,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
